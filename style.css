@@ -1,0 +1,43 @@
+body {
+    padding:20px;
+    box-sizing: border-box;
+    background: #eee;
+}
+
+/* Navigation bar */
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: -20px;
+    padding:12px;
+    gap:40px;
+}
+
+
+
+.left-area, .middle-area, .right-area {
+        border-left: 5px solid #e9e9e9;
+        border-right: 5px solid #e9e9e9;
+        padding-top: 10px;
+        height: 100%;
+        padding-left: 0;
+        padding-right: 0;
+}
+
+/* Mail List Container */
+.mail-list .form-check {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.mail-list .form-check:last-child {
+    border-bottom: none;
+}
+.form-check-label .content {
+    display: flex;
+    flex-direction: column;
+}
+.sender-name {
+    font-weight: bold;
+}
+
